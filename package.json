@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "test--parallel": "jest",
+    "test": "jest --runInBand",
+    "test--debug": "jest --verbose"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "puppeteer": "^1.20.0",
+    "rimraf": "^2.6.3"
+  },
+  "name": "automan",
+  "description": "Jest-Pupeeter-PageObject-Example",
+  "version": "1.0.0",
+  "main": "jest.config.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
