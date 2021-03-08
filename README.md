@@ -21,14 +21,14 @@ cd jest-puppeteer-POM-main
 ```
 
 
-Execute test inBand (sequentially)
+Execute test
 ```bash
 > npm test 
 ```
 
-Execute specific test inBand (sequentially)
+Execute specific test 
 ```bash
-> npm test search_spec.js
+> npm test search_spec
 ```
 
 
