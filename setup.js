@@ -17,7 +17,10 @@ module.exports = async function() {
   // const browser = await puppeteer.launch({ headless: false}) 
    
   // launch chrome browser
-  const browser = await puppeteer.launch({ headless: false, defaultViewport: null , args: ['--start-maximized'], executablePath: 'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe'})
+  // const browser = await puppeteer.launch({ headless: false, defaultViewport: null , args: ['--start-maximized'], executablePath: 'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe'})
+  
+  // launch headless 
+  const browser = await puppeteer.launch()
 
   // This global is not available inside tests but only in global teardown
   global.__BROWSER_GLOBAL__ = browser
